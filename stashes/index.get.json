@@ -1,0 +1,19 @@
+[
+    {
+        "path": "silence/i-424242/chef_client_process",
+        "content": {
+            "timestamp": 1383441836
+        },
+        "expire": 3600
+    },
+    {
+        "path": "application/storefront",
+        "content": {
+            "timestamp": 1381350802,
+            "endpoints": [
+                "https://hostname/store"
+            ]
+        },
+        "expire": -1
+    }
+]

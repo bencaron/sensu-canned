@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1ccfdf59-d9ab-447c-ac11-fd84072b905a",
+        "client": {
+            "name": "i-424242",
+            "address": "127.0.0.1",
+            "subscriptions": [
+                "webserver",
+                "production"
+            ],
+            "timestamp": 1389374650
+        },
+        "check": {
+            "name": "chef_client_process",
+            "command": "check-procs -p chef-client -W 1",
+            "subscribers": [
+                "production"
+            ],
+            "interval": 60,
+            "issued": 1389374667,
+            "executed": 1389374667,
+            "output": "WARNING Found 0 matching processes\n",
+            "status": 1,
+            "duration": 0.005,
+            "history": [
+                "0",
+                "1",
+                "1"
+            ]
+        },
+        "occurrences": 2,
+        "action": "create"
+    }
+]

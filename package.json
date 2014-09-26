@@ -1,0 +1,15 @@
+{
+  "name": "sensu-canned",
+  "version": "0.0.1",
+  "description": "",
+  "main": "canned",
+  "scripts": {
+    "start": "canned -p 4567",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "canned": "0.2.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
