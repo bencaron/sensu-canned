@@ -1,21 +1,37 @@
 [
-    {
-        "name": "i-334455",
-        "address": "192.168.0.2",
-        "subscriptions": [
-            "chef-client",
-            "sensu-server"
-        ],
-        "timestamp": 1324674972
-    },
-    {
-        "name": "i-424242",
-        "address": "192.168.0.3",
-        "subscriptions": [
-            "chef-client",
-            "webserver",
-            "memcached"
-        ],
-        "timestamp": 1324674956
-    }
+  {
+    "name": "bar",
+    "address": "10.73.20.39",
+    "subscriptions": [
+      "chef",
+      "webserver"
+    ],
+    "timestamp": 1412734104
+  },
+  {
+    "name": "baz",
+    "address": "10.73.20.39",
+    "subscriptions": [
+      "linux",
+      "webserver"
+    ],
+    "timestamp": 1412734108
+  },
+  {
+    "name": "foo",
+    "address": "192.168.100.2",
+    "subscriptions": [
+      "chef",
+      "linux"
+    ],
+    "timestamp": 1412734097
+  },
+  {
+    "name": "qux",
+    "address": "10.73.100.138",
+    "subscriptions": [
+      "linux"
+    ],
+    "timestamp": 1412734116
+  }
 ]

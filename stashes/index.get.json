@@ -1,18 +1,15 @@
 [
     {
-        "path": "silence/i-424242/chef_client_process",
+        "path": "silence/bar/website",
         "content": {
             "timestamp": 1383441836
         },
         "expire": 3600
     },
     {
-        "path": "application/storefront",
+        "path": "silence/qux",
         "content": {
-            "timestamp": 1381350802,
-            "endpoints": [
-                "https://hostname/store"
-            ]
+            "timestamp": 1381350802
         },
         "expire": -1
     }

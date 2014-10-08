@@ -1,14 +1,5 @@
 [
     {
-        "check": "chef_client_process",
-        "history": [
-            0,
-            1
-        ],
-        "last_execution": 1370725352,
-        "last_status": 1
-    },
-    {
         "check": "keepalive",
         "history": [
           0,
@@ -17,5 +8,14 @@
         ],
         "last_execution": 1370725351,
         "last_status": 0
+    },
+    {
+        "check": "ram",
+        "history": [
+            1,
+            3
+        ],
+        "last_execution": 1370725352,
+        "last_status": 3
     }
 ]
