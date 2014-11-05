@@ -1,0 +1,18 @@
+[
+    {
+        "name": "chef_client_process",
+        "command": "check-procs.rb -p /usr/bin/chef-client -W 1 -w 2 -c 3",
+        "subscribers": [
+            "production"
+        ],
+        "interval": 60
+    },
+    {
+        "name": "website",
+        "command": "check-http.rb -h localhost -p /health -P 80 -q Passed -t 30",
+        "subscribers": [
+            "webserver"
+        ],
+        "interval": 30
+    }
+]

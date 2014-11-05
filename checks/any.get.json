@@ -1,0 +1,8 @@
+{
+  "name": "check_chef_client",
+  "command": "check-procs.rb -p /usr/bin/chef-client -W 1 -w 2 -c 3",
+  "subscribers": [
+    "chef-client"
+  ],
+  "interval": 60
+}
